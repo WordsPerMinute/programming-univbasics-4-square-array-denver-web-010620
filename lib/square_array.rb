@@ -5,6 +5,7 @@ def square_array(array)
     numToSquare = array[counter]
     numToSquare *= numToSquare
     newArray.push(numToSquare)
+    p newArray
     counter += 1
   end
 end
